@@ -1,0 +1,11 @@
+n=int(input('enter number'))
+total=0
+while n>0:
+  rem=n%10
+  total=total+rem
+  n=n//10
+print('sum of digits:',total)
+
+OUTPUT:
+enter number 94
+sum of digits: 13
